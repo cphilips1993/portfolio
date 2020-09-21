@@ -1,0 +1,139 @@
+
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+	
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Noto+Sans:400,700|Noto+Serif);
+
+/* -------  Structure ------- */
+
+body {
+	background-image:url(images/Female\ 3.png);
+  margin: 0;
+}
+
+header {
+	height: 140px;
+	background-color: #3f0247;
+	background-image:url(images/subtle_white_mini_waves.png);
+}
+
+footer {
+	height: 84px;
+	background-color: #3f0247;
+	background-image:url(images/subtle_white_mini_waves.png);
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;	
+}
+
+img {
+ width: 100%;	
+}
+
+
+/* -------  Logo ------- */
+
+header h1 {
+	font-family: 'Playfair Display', serif;
+	color: #3f0247;
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 48px;
+	text-align:center;
+}
+
+header h2 {
+	font-family: 'Playfair Display', serif;
+	color: #3f0247;
+	margin: 0px;
+	padding-top: 16px;
+	font-size: 22px;
+	text-align: center;
+}
+
+/* -------  Type ------- */
+
+h1, h2 {
+	color: #c48600;
+	font-family: 'Noto Serif', serif;
+}
+
+h1 { font-size: 38px;}
+h2 { font-size: 30px;}
+
+p, li {
+	font-family: 'Noto Sans', sans-serif;
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 26px;
+}
+
+ul {
+ list-style-image: url('images/love@56px.png');
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+a:link { color: #ff0000; }
+a:visited { color: #ff0000; }
+a:hover { color: #3f0247; }
+a:active { color: #3f0247; }
+
+
+a:hover {
+	text-decoration: underline;	
+}
+
+footer p {
+	color: #000000(13, 255, 5);	
+	text-align: center;
+}
+footer a:link { color: #ff0000; }
+footer a:visited { color: #ff0000; }
+footer a:hover { color: #3f0247; }
+footer a:active { color: #3f0247; }
+
+
+/* -------  Elements ------- */
+
+img, iframe { border-radius: 8px;} 
+
+iframe { border: 1px solid #3f0247;}
+
+hr { border: .5px solid #3f0247;}
+
+ul.coffee li {list-style-image: url('images/coffee-cup-icon.png'); }
+
+/* -------  Spacers ------- */  
+/* Note: There are better ways of creating space
+   in a web page, but this is an easy technique
+   for now. */
+
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+.gap-md {
+    height: 100px;
+    width: auto;
+}
+.gap-lg {
+    height: 200px;
+    width: auto;
+}
+
+.gap-footer {
+    height: 10px;
+    width: auto;
+}
